@@ -18,7 +18,6 @@ const CARDITEM = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
 const ROW = document.querySelector(".row");
 const FORM = document.querySelector("form");
 
-let Width = document.querySelector("#cardwidth");
 let card = {};
 let intervalID = window.setInterval(drawcard, 10000);
 
